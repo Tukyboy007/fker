@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.form-input {
+  background-color: #ededed;
+  padding: 8px;
+  border-radius: 6px;
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.error-toast {
+  /* color: #fff; */
+}
+
+.warning-toast {
+  /* color: #fff; */
+}
+
+.success-toast {
+  /* color: #fff; */
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+}
